@@ -1,9 +1,15 @@
 {
-    "name": "oriceon/oauth-5-laravel",
+    "name": "surshin/oauth-5-laravel",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/surshin/oauth"
+        }
+    ],
     "type": "library",
     "description": "OAuth Service Provider for Laravel 5",
     "keywords": ["OAuth", "Lusitanian", "laravel", "php"],
-    "homepage": "https://github.com/oriceon/oauth-5-laravel",
+    "homepage": "https://github.com/surshin/oauth-5-laravel",
     "license": "MIT",
     "authors": [
         {
@@ -15,11 +21,16 @@
             "name": "oriceon",
             "email": "oriceon@gmail.com",
             "role": "Developer"
+        },
+        {
+            "name": "surshin",
+            "email": "morita_shinobu@sur.co.jp",
+            "role": "Developer"
         }
     ],
     "require": {
         "php": ">=5.4",
-        "lusitanian/oauth": "~0.3"
+        "surshin/oauth": "~0.3"
     },
     "require-dev": {
         "illuminate/support": "~5"
